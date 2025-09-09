@@ -1,11 +1,11 @@
 .navbar {
     background-color: #e0e3e6; 
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* More depth */
-    border-bottom: none; /* Remove hard border for softer look */
-    border-radius: 1rem; /* Rounded corners */
-    margin: 1rem auto; /* Adds spacing from other content */
-    width: 95%; /* Optional: Shrink navbar width a bit for visual framing */
-    padding: 0.5rem 1rem; /* Optional: Adds inner spacing */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); 
+    border-bottom: none; 
+    border-radius: 1rem; 
+    margin: 1rem auto; 
+    width: 95%; 
+    padding: 0.5rem 1rem; 
     z-index: 1030;
 }
 
@@ -61,6 +61,8 @@ body {
             rgba(102, 102, 102, 0.6) 75%,
             rgba(51, 51, 51, 0.9) 100%
         );
+        background-image: url(wp14805304.png); /*backup should be the  linear gradient, i hope. if not try to move after bg-color*/
+        
 
     background-position: center;
     background-attachment: fixed;
