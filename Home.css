@@ -1,9 +1,123 @@
-body{
-    background-image: url();
+
+.navbar {
+    background-color: #e0e3e6; 
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); 
+    border-bottom: 1px solid #c4c7ca; 
+    z-index: 1030;
+}
+
+.navbar a.navbar-brand,
+.navbar a {
+    color: #3a5a2a; 
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar a.navbar-brand:hover,
+.navbar a:hover {
+    color: #6ab04c;
+}
+
+.navbar .btn-outline-success {
+    border-color: #6ab04c;
+    color: #3a5a2a;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar .btn-outline-success:hover {
+    background-color: #6ab04c;
+    color: white;
+    border-color: #6ab04c;
+}
+
+
+header h1 {
+    color: chartreuse;
+    font-weight: 700;
+    text-shadow:
+        2px 2px 4px rgba(0, 0, 0, 0.6),
+        0 0 6px rgba(124, 252, 0, 0.8);
+    -webkit-text-stroke: 1px rgba(124, 252, 0, 0.9);
+    -webkit-text-fill-color: chartreuse;
+    margin-top: 1rem;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+
+    background-image:
+        linear-gradient(to right,
+            rgba(51, 51, 51, 0.9) 0%,
+            rgba(102, 102, 102, 0.6) 20%,
+            rgba(255, 255, 255, 0.3) 50%,
+            rgba(102, 102, 102, 0.6) 80%,
+            rgba(51, 51, 51, 0.9) 100%
+        );
+
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    background-repeat: no repeat;
-    margin: 0;
-    padding: 0;
+    background-repeat: no-repeat;
+    background-color: #89f56e;
+}
+
+
+.carousel-indicators [data-bs-target] {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #000;
+    opacity: 0.5;
+    border: none;
+    margin: 0 5px;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+    background-color: #89f56e;
+}
+
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+
+.carousel-wrapper {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+}
+
+.carousel-wrapper:hover {
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Welcome section styling */
+.welcome.section {
+    background-color: rgba(255, 255, 255, 0.85);
+    border: 1.5px solid #6ab04c;
+    box-shadow: 0 4px 12px rgba(106, 176, 76, 0.2);
+    color: #3a5a2a;
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+}
+
+.welcome.section:hover {
+    box-shadow: 0 6px 20px rgba(106, 176, 76, 0.35);
+}
+
+/* Footer styling */
+footer {
+    background: transparent;
+    font-size: 0.9rem;
+    color: #6ab04c;
+    margin-top: 3rem;
 }
