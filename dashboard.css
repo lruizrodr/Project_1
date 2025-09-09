@@ -1,9 +1,77 @@
-body{
-    background-image: url(wp14805304.png);
+.navbar {
+    background-color: #e0e3e6; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* More depth */
+    border-bottom: none; /* Remove hard border for softer look */
+    border-radius: 1rem; /* Rounded corners */
+    margin: 1rem auto; /* Adds spacing from other content */
+    width: 95%; /* Optional: Shrink navbar width a bit for visual framing */
+    padding: 0.5rem 1rem; /* Optional: Adds inner spacing */
+    z-index: 1030;
+}
+
+.navbar a.navbar-brand,
+.navbar a {
+    color: #3a5a2a; 
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar a.navbar-brand:hover,
+.navbar a:hover {
+    color: #6ab04c;
+}
+
+.navbar a:not(.navbar-brand) {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin: 0 0.25rem;
+    background-color: #d5e8d4; 
+    border: 1px solid #a9dfbf;
+    border-radius: 0.25rem;
+    text-decoration: none;
+}
+
+.navbar a:not(.navbar-brand):hover {
+    background-color: #6ab04c;
+    color: white;
+    border-color: #6ab04c;
+}
+
+.navbar .btn-outline-success {
+    border-color: #6ab04c;
+    color: #3a5a2a;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar .btn-outline-success:hover {
+    background-color: #6ab04c;
+    color: white;
+    border-color: #6ab04c;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    background-image:
+        linear-gradient(to right,
+            rgba(51, 51, 51, 0.9) 0%,
+            rgba(102, 102, 102, 0.6) 25%,
+            rgba(255, 255, 255, 0.3) 50%,
+            rgba(102, 102, 102, 0.6) 75%,
+            rgba(51, 51, 51, 0.9) 100%
+        );
+
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    background-repeat: no repeat;
-    margin: 0;
-    padding: 0;
+    background-repeat: no-repeat;
+    background-color: #89f56e;
+}
+
+footer {
+    background: transparent;
+    font-size: 0.9rem;
+    color: #6ab04c;
+    margin-top: 3rem;
 }
