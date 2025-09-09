@@ -1,11 +1,11 @@
 .navbar {
     background-color: #e0e3e6; 
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* More depth */
-    border-bottom: none; /* Remove hard border for softer look */
-    border-radius: 1rem; /* Rounded corners */
-    margin: 1rem auto; /* Adds spacing from other content */
-    width: 95%; /* Optional: Shrink navbar width a bit for visual framing */
-    padding: 0.5rem 1rem; /* Optional: Adds inner spacing */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); 
+    border-bottom: none; 
+    border-radius: 1rem; 
+    margin: 1rem auto; 
+    width: 95%; 
+    padding: 0.5rem 1rem; 
     z-index: 1030;
 }
 
@@ -25,7 +25,7 @@
     display: inline-block;
     padding: 0.5rem 1rem;
     margin: 0 0.25rem;
-    background-color: #d5e8d4; /* Light green background for button look */
+    background-color: #d5e8d4; 
     border: 1px solid #a9dfbf;
     border-radius: 0.25rem;
     text-decoration: none;
@@ -61,12 +61,55 @@ body {
             rgba(102, 102, 102, 0.6) 80%,
             rgba(51, 51, 51, 0.9) 100%
         );
+        background-image: url(Copilot_20250909_131452.png);
 
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #89f56e;
+}
+
+.faq-section {
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 1rem;
+    margin: 2rem auto;
+    width: 95%;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.accordion-button {
+    background-color: #d5e8d4;
+    color: #3a5a2a;
+    font-weight: 500;
+    border-radius: 0.5rem !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.accordion-button:hover,
+.accordion-button:focus {
+    background-color: #6ab04c;
+    color: white;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #6ab04c;
+    color: white;
+    box-shadow: none;
+}
+
+.accordion-body {
+    background-color: #f0fdf4;
+    border-left: 4px solid #6ab04c;
+    border-radius: 0 0 0.5rem 0.5rem;
+    padding: 1rem;
+    color: #2f4f2f;
+    font-size: 0.95rem;
+}
+
+.accordion-item {
+    border: none;
+    background: transparent;
 }
 
 footer {

@@ -61,6 +61,7 @@ body {
             rgba(102, 102, 102, 0.6) 80%,
             rgba(51, 51, 51, 0.9) 100%
         );
+        background-image: url(Copilot_20250909_131452.png);
 
     background-position: center;
     background-attachment: fixed;
@@ -80,13 +81,13 @@ body {
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
 
-/* Card image */
+
 .custom-card img {
     object-fit: cover;
     height: 250px;
 }
 
-/* Card body */
+
 .custom-card .card-body {
     padding: 1.2rem;
 }
@@ -97,7 +98,7 @@ body {
     border-color: #198754;
 }
 
-/* Modal fix */
+
 .modal-content {
     border-radius: 10px;
 }

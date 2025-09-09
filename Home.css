@@ -1,12 +1,12 @@
 
 .navbar {
     background-color: #e0e3e6; 
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* More depth */
-    border-bottom: none; /* Remove hard border for softer look */
-    border-radius: 1rem; /* Rounded corners */
-    margin: 1rem auto; /* Adds spacing from other content */
-    width: 95%; /* Optional: Shrink navbar width a bit for visual framing */
-    padding: 0.5rem 1rem; /* Optional: Adds inner spacing */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); 
+    border-bottom: none; 
+    border-radius: 1rem; 
+    margin: 1rem auto; 
+    width: 95%; 
+    padding: 0.5rem 1rem; 
     z-index: 1030;
 }
 
@@ -26,7 +26,7 @@
     display: inline-block;
     padding: 0.5rem 1rem;
     margin: 0 0.25rem;
-    background-color: #d5e8d4; /* Light green background for button look */
+    background-color: #d5e8d4; 
     border: 1px solid #a9dfbf;
     border-radius: 0.25rem;
     text-decoration: none;
@@ -50,19 +50,6 @@
     border-color: #6ab04c;
 }
 
-
-header h1 {
-    color: chartreuse;
-    font-weight: 700;
-    text-shadow:
-        2px 2px 4px rgba(0, 0, 0, 0.6),
-        0 0 6px rgba(124, 252, 0, 0.8);
-    -webkit-text-stroke: 1px rgba(124, 252, 0, 0.9);
-    -webkit-text-fill-color: chartreuse;
-    margin-top: 1rem;
-}
-
-
 body {
     margin: 0;
     padding: 0;
@@ -75,6 +62,7 @@ body {
             rgba(102, 102, 102, 0.6) 75%,
             rgba(51, 51, 51, 0.9) 100%
         );
+        background-image: url(Copilot_20250909_131452.png);
 
     background-position: center;
     background-attachment: fixed;
