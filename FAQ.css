@@ -384,7 +384,7 @@ fieldset {
 
 .fs-slider::-moz-range-thumb {
   background-color: var(--color-primary);
-  border: none; /* Removes extra border that FF applies */
+  border: none;
   border-radius: 50%;
   height: 1.25rem;
   width: 1.25rem;

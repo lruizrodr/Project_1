@@ -108,7 +108,6 @@ body {
     box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15);
 }
 
-/* Welcome section styling */
 .welcome.section {
     background-color: rgba(255, 255, 255, 0.85);
     border: 1.5px solid #6ab04c;
@@ -121,7 +120,6 @@ body {
 .welcome.section:hover {
     box-shadow: 0 6px 20px rgba(106, 176, 76, 0.35);
 }
-
 
 footer {
     background: transparent;
