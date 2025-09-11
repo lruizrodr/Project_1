@@ -77,6 +77,28 @@ body {
     max-width: 95%;
 }
 
+.blog-column-left{
+    background-color: #6ab04c;
+    border: 1px solid #a9dfbf;
+    border-radius: 0.5rem;
+    text-align: center;
+    width: 150px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.blog-column-right{
+    background-color: hsl(116, 19%, 45%);
+    border: 1px solid #a9dfbf;
+    border-radius: 0.5rem;
+    text-align: center;
+    width: 150px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    transition: background-color 0.3s ease;
+}
+
 .blog-scroll {
     max-height: 500px;
     overflow-y: auto;
