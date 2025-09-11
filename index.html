@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="index.css">
-  </head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="index.css" />
+</head>
 <body>
-   <nav class="navbar navbar-expand-lg justify-content-center">
+    <nav class="navbar navbar-expand-lg justify-content-center">
         <div class="container">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="Home.html">
             <img src="https://img.icons8.com/fluency/48/spring.png" alt="Icon" width="30" height="24" /> Perenia Plants
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -18,7 +18,7 @@
             </button>
             <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link" href="Home.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="AboutMe.html">About Me</a></li>
                 <li class="nav-item"><a class="nav-link" href="Shop.html">Shop</a></li>
                 <li class="nav-item"><a class="nav-link" href="Blog.html">Blog</a></li>
@@ -31,120 +31,66 @@
                 <button class="btn btn-outline-success" type="submit">Search</button>
             </form>
             </div>
-        </div>     
+        </div>
     </nav>
-<!--Crazy table of contents after nav cause why not-->
-        <br>
-        <div class="side-nav">
-            <h5 class="text-success">Quick Links</h5>
-            <ul class="list-unstyled">
-                <li><a href="#user-stories">User Stories</a></li>
-                <li><a href="#wireframe">Wireframe Gallery</a></li>
-                <li><a href="#references">References</a></li>
-            </ul>
-        </div>
-<!--Crazy table of contents inside nav cause why not-->
-    <section id="user-stories" class="container my-5">
-        <h2 class="text-center mb-4 text-success">User Stories</h2>
-        <div class="row">
-            <div class="col-md-8">
-            <div class="tab-content p-3 border rounded bg-light shadow-sm">
-                <div class="tab-pane fade show active" id="story1">
-                <h5>User Story 1</h5>
-                <p><strong>As a plant lover</strong>, <em>I want to browse plants easily</em> <u>so that I can find ones suitable for my home.</u></p>
-                </div>
-                <div class="tab-pane fade" id="story2">
-                <h5>User Story 2</h5>
-                <p><strong>As a customer</strong>, <em>I want a search bar</em> <u>so that I can quickly find specific plants.</u></p>
-                </div>
-                <div class="tab-pane fade" id="story3">
-                <h5>User Story 3</h5>
-                <p><strong>As a beginner</strong>, <em>I want care tips included with plants</em> <u>so that I can keep them healthy.</u></p>
-                </div>
-                <div class="tab-pane fade" id="story4">
-                <h5>User Story 4</h5>
-                <p><strong>As a shopper</strong>, <em>I want to view plant prices clearly</em> <u>so that I can compare within my budget.</u></p>
-                </div>
-                <div class="tab-pane fade" id="story5">
-                <h5>User Story 5</h5>
-                <p><strong>As a visitor</strong>, <em>I want blog articles</em> <u>so that I can learn more about plant care and trends.</u></p>
-                </div>
-            </div>
-            </div>
-            <div class="col-md-4">
-            <div class="list-group shadow-sm">
-                <a class="list-group-item list-group-item-action active" data-bs-toggle="list" href="#story1">User Story 1</a>
-                <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#story2">User Story 2</a>
-                <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#story3">User Story 3</a>
-                <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#story4">User Story 4</a>
-                <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#story5">User Story 5</a>
-            </div>
-            </div>
-        </div>
-    </section>
 <!--IT'S_A_RAWR_XD_FUN_DIVIDER_IT'S_A_RAWR_XD_FUN_DIVIDER_IT'S_A_RAWR_XD_FUN_DIVIDER_IT'S_A_RAWR_XD_FUN_DIVIDER_IT'S_A_RAWR_XD_FUN_DIVIDER_IT'S_A_RAWR_XD_FUN_DIVIDER_-->
-    <section id="wireframe" class="container my-5">
-        <h2 class="text-center mb-4 text-success">Wireframe Gallery</h2>
-        <div id="wireframeCarousel" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner rounded shadow">
-                <div class="carousel-item active">
-                    <a href="#"><img src="https://picsum.photos/800/400" class="d-block w-100" alt="Wireframe 1"></a>
+    <div class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-10 col-lg-8">
+                <div class="carousel-wrapper shadow rounded-4 border overflow-hidden">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://picsum.photos/600/400" class="d-block w-100" alt="placeholder" />
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>First slide label</h5>
+                                    <p>Some representative placeholder content for the first slide.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://picsum.photos/600/400" class="d-block w-100" alt="placeholder" />
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Second slide label</h5>
+                                    <p>Some representative placeholder content for the second slide.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://picsum.photos/600/400" class="d-block w-100" alt="placeholder" />
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Third slide label</h5>
+                                    <p>Some representative placeholder content for the third slide.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
                 </div>
-                <div class="carousel-item">
-                    <a href="#"><img src="https://picsum.photos/800/400" class="d-block w-100" alt="Wireframe 2"></a>
-                </div>
-                <div class="carousel-item">
-                    <a href="#"><img src="https://picsum.photos/800/400" class="d-block w-100" alt="Wireframe 3"></a>
-                </div>
-                <div class="carousel-item">
-                    <a href="#"><img src="https://picsum.photos/800/400" class="d-block w-100" alt="Wireframe 4"></a>
-                </div>
-                <div class="carousel-item">
-                    <a href="#"><img src="https://picsum.photos/800/400" class="d-block w-100" alt="Wireframe 5"></a>
-                </div>
-                <div class="carousel-item">
-                    <a href="#"><img src="https://picsum.photos/800/400" class="d-block w-100" alt="Wireframe 6"></a>
-                </div>
-                <div class="carousel-item">
-                    <a href="#"><img src="https://picsum.photos/800/400" class="d-block w-100" alt="Wireframe 7"></a>
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#wireframeCarousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#wireframeCarousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon"></span>
-            </button>
-        </div>
-    </section>
-<!--IT'S_A_RAWR_XD_FUN_DIVIDER_IT'S_A_RAWR_XD_FUN_DIVIDER_IT'S_A_RAWR_XD_FUN_DIVIDER_IT'S_A_RAWR_XD_FUN_DIVIDER_IT'S_A_RAWR_XD_FUN_DIVIDER_IT'S_A_RAWR_XD_FUN_DIVIDER_-->
-    <section id="references" class="container my-5">
-        <h2 class="text-center mb-4 text-success">References</h2>
-        <div class="card shadow-sm">
-            <div class="card-body">
-                <ul class="list-unstyled">
-                    <li><a href="https://getbootstrap.com/" target="_blank">Bootstrap Documentation</a></li>
-                    <li><a href="https://icons8.com/" target="_blank">Icons8 (Icons)</a></li>
-                    <li><a href="https://unsplash.com/" target="_blank">Unsplash (Free Images)</a></li>
-                    <li><a href="https://developer.mozilla.org/en-US/" target="_blank">MDN Web Docs</a></li>
-                </ul>
             </div>
         </div>
-    </section>
+    </div>
 <!--IT'S_A_RAWR_XD_FUN_DIVIDER_IT'S_A_RAWR_XD_FUN_DIVIDER_IT'S_A_RAWR_XD_FUN_DIVIDER_IT'S_A_RAWR_XD_FUN_DIVIDER_IT'S_A_RAWR_XD_FUN_DIVIDER_IT'S_A_RAWR_XD_FUN_DIVIDER_-->
-    <section class="container my-5">
-        <h2 class="text-center mb-4 text-success">Readme Preview</h2>
-            <div class="card shadow-sm">
-                <div class="card-body readme-box">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, inventore amet odio facere dicta similique quaerat suscipit consequuntur voluptatem dolorum atque nobis quos expedita rem harum repudiandae, est et ipsam enim commodi neque sed quia nam repellendus? Atque, facilis reiciendis saepe soluta eum minus voluptatum cupiditate molestias neque expedita et sed nulla ut iure tenetur quam nam illo, ducimus quia reprehenderit quaerat. Libero aliquam assumenda quod, molestias tempora maiores, dignissimos quis qui voluptatem corporis neque aliquid expedita eos quia omnis distinctio eveniet aspernatur quam. Voluptate fuga reiciendis officiis omnis aspernatur error beatae sint. Cum reiciendis, quis accusamus fugit in consequatur. Eos maxime nesciunt quasi exercitationem voluptatem accusamus qui cumque dicta laboriosam similique assumenda accusantium officia dolores molestias perferendis tenetur ab magnam, quae a necessitatibus? Ut, temporibus delectus deleniti voluptas optio, totam beatae quia quisquam enim dolorum tempore in! Placeat corrupti praesentium eius vel aut amet labore eveniet provident accusamus ducimus cumque, esse quasi suscipit similique a ipsa ratione totam ullam nulla. Quae ipsum maxime magni vitae quibusdam. Vel, aspernatur magni? Dolorum esse sapiente totam tempora quibusdam quo ullam aperiam, accusamus error tempore reprehenderit. Numquam quo molestiae omnis accusamus rerum a autem, nemo dolorem labore porro voluptas sequi minima, quos doloribus pariatur fugiat, nisi itaque perferendis dicta eos incidunt veritatis! Excepturi pariatur sint deserunt voluptatem optio vel officiis iure alias temporibus necessitatibus reprehenderit tenetur reiciendis autem iste nam, recusandae quasi fugiat nesciunt voluptate tempore! Nobis, dolor autem? Eius, sunt doloremque velit dolor temporibus provident, repellendus excepturi officia, perferendis laudantium minus id? Voluptatum accusamus ratione vitae eveniet ullam sapiente consequuntur corporis? Animi eum, iste fugit eveniet asperiores amet hic alias, sit mollitia perspiciatis doloribus molestiae quibusdam assumenda pariatur fuga consequatur eligendi rem earum corrupti minima voluptatibus at labore. Dignissimos, corporis. Ullam consequatur quod possimus suscipit repellendus! Voluptate debitis perferendis quaerat, eaque illo ratione. In ex fugit dolore quod delectus nisi. Doloremque accusantium minus, voluptate dolores at ad non! Facere deleniti excepturi corrupti mollitia, fugit aspernatur magni ratione, eum non esse unde beatae quos perferendis accusamus libero voluptatibus nam expedita. Nostrum sapiente deleniti facere repudiandae nisi esse laborum nam cumque quam in sequi praesentium temporibus officia odit repellat, natus impedit, voluptatum libero recusandae autem a similique voluptatibus! Excepturi quod voluptatibus perspiciatis quibusdam officiis ab doloribus sequi id fugiat cum necessitatibus magnam non maxime dolor voluptates sint dignissimos ipsam sed, fuga, magni vero temporibus, fugit repellendus. Adipisci quibusdam excepturi fugit ipsa sapiente! Ad, perferendis accusantium cumque sunt ducimus assumenda. Eos, ratione enim repellendus quisquam architecto tempore porro molestias doloremque. Quam dignissimos alias quos voluptates numquam ipsa dolorem praesentium eos voluptas? Aut porro sed deserunt nulla obcaecati optio quibusdam fugiat accusantium aliquid explicabo excepturi eius voluptas esse dolores facilis temporibus voluptate officia ullam, placeat beatae fuga quis molestias veniam impedit. Sapiente in neque possimus voluptatum consequuntur, minima ab numquam praesentium corporis placeat eum consectetur tenetur et voluptate esse dolorum! Veritatis ipsa vitae accusantium sunt odio omnis totam necessitatibus dolor at aut aspernatur voluptatibus, ad quidem asperiores praesentium sit! Incidunt culpa molestias similique quod, minima saepe consectetur eos, commodi officia qui delectus facere quisquam quaerat voluptate labore iure, error earum autem officiis consequuntur unde! Quibusdam quam facere consequuntur consequatur perspiciatis quod qui iure aliquam quasi cum exercitationem, voluptatem labore quidem beatae veritatis blanditiis, delectus sequi atque repellendus mollitia enim! Illum deleniti accusantium vel nulla nemo laboriosam enim nam corporis libero facere impedit dicta labore numquam et expedita nisi reiciendis cupiditate corrupti, perferendis animi cumque beatae error ad quam! Perspiciatis repellat tempore quod maxime dolore aut eius eum quos, temporibus consequatur inventore nisi unde! Cupiditate hic, omnis veritatis ipsa cum repellendus voluptatibus impedit veniam voluptate aliquid commodi nostrum temporibus nobis necessitatibus, quo, iure consectetur. Aliquid, odio tenetur tempore temporibus vero iusto delectus autem. Dicta provident doloribus deserunt deleniti soluta amet alias possimus, non temporibus libero aperiam, cumque ipsam architecto quo explicabo accusamus repellendus voluptatum aliquid delectus molestias veniam, eum a laborum saepe. Sed, illum, distinctio deserunt ducimus quod quidem inventore eaque quibusdam unde quae minus porro provident expedita tempora. Quae vero nemo nobis quas et sequi numquam optio quod! Laborum nesciunt rerum deserunt eligendi repellendus esse quis amet tempore maiores fugiat! Voluptatum, quia cum dolor optio et commodi deleniti nihil. Non rem odit accusantium eius, cupiditate nobis repellendus quasi porro ullam repellat impedit autem modi molestiae natus velit. Mollitia neque, maxime culpa iure tempora voluptate sequi vitae dolorem porro in eligendi ipsam, ea molestias doloremque voluptatum magni officia reprehenderit reiciendis perferendis dolores magnam nostrum nihil dignissimos. Non quos amet provident unde at iure necessitatibus doloremque recusandae vero nesciunt doloribus illum nostrum sed magni voluptas cum porro laudantium, sit quaerat adipisci fugiat odit sunt voluptates ducimus. Soluta velit, animi, voluptates dolorum eligendi incidunt omnis dolorem obcaecati quas, accusamus libero voluptatibus cupiditate tempora deleniti corrupti eius a eveniet laboriosam dolor nulla! Commodi, nemo. Nisi voluptas sequi, quidem nam rem, inventore mollitia ratione commodi ab iure reprehenderit voluptatem, perspiciatis iusto repellendus porro enim eius sit illum? In cumque ex quaerat non modi totam sapiente ullam quasi voluptatem? Vel soluta nam laudantium assumenda ducimus! Inventore nostrum repellat tempora incidunt, ut modi unde rerum reiciendis amet quam alias nam. Magnam laboriosam deserunt voluptatem accusantium culpa ullam reiciendis maiores dolore nobis exercitationem amet autem quam incidunt dolor nulla, quas et inventore magni odit veritatis consectetur dolores animi similique. Dolorum sunt voluptatibus vitae, saepe cupiditate neque numquam sed modi ratione nesciunt alias eaque, iusto at. Porro veritatis, perferendis officiis consequatur at hic mollitia harum quasi, soluta repellendus similique saepe? Eius commodi eaque cumque sed? Maiores dolor quod omnis eveniet in exercitationem odit qui cumque possimus aspernatur beatae ut voluptatibus facilis, rem illum quam quis porro ducimus fugiat unde ipsa perspiciatis. Vero qui perspiciatis sit, molestiae exercitationem, similique optio quos in nam quis libero amet quibusdam enim ea esse, aut deserunt deleniti repudiandae! Similique omnis corporis ea suscipit doloremque, vero maxime perferendis, quisquam, possimus praesentium est ipsam et ipsum sapiente! Sint molestias ab quasi laboriosam similique maxime sit non, earum dolor cupiditate labore ea impedit iste aspernatur tempore in aut eum culpa totam debitis omnis!
-
-                </div>
-            </div>
-    </section>
+    <div class="container my-5">
+        <div class="border rounded-4 p-4 shadow-sm welcome section">
+            <h2 class="my-3">Welcome to Perenia Plants Nursery and Shop</h2>
+            <p class="lead">We're glad to have you here. Explore and enjoy everything we have to offer.</p>
+        </div>
+    </div>
 <!--IT'S_A_RAWR_XD_FUN_DIVIDER_IT'S_A_RAWR_XD_FUN_DIVIDER_IT'S_A_RAWR_XD_FUN_DIVIDER_IT'S_A_RAWR_XD_FUN_DIVIDER_IT'S_A_RAWR_XD_FUN_DIVIDER_IT'S_A_RAWR_XD_FUN_DIVIDER_-->
 <footer class="text-center py-4 text-muted">
 <p>Copyright &copy; 2025 Perenia Plants. All rights reserved.</p>
 </footer>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
