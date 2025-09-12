@@ -16,8 +16,9 @@ Built with HTML, CSS and Bootstrap.
 ## **Technologies used**
 
 -Frontend: HTML, CSS
--Framework/Libraries:Bootstrap 5, formspree.io, picsum.photos, Icons8
+-Framework/Libraries:Bootstrap 5, formspree.io
 -Tools: Git, VS Code, 
+-Other Resources: developer.mozilla.org/en-US/,picsum.photos, Icons8.com
 
 ---
 ## **Features**
@@ -62,11 +63,20 @@ Built with HTML, CSS and Bootstrap.
 │   │   │   └── Shop.drawio.png
 │   │   │   └── Socials.drawio.png
 
+---
 ## **Installation**
 
 -git clone https://github.com/lruizrodr/Project_1
 cd https://lruizrodr.github.io/Project_1/
 
+---
+## **Future Development**
+-Interactive functions on About Me page, info pop-us.
+-Work on making a functional shop page, to add subsections and filters.
+-Create an organized structure and filing system for shop owner blog.
+-Live feed of socials page for most active and used social network.
+
+---
 ## **Deployment**
 
 -GitHub Pages
