@@ -25,7 +25,7 @@
     display: inline-block;
     padding: 0.5rem 1rem;
     margin: 0 0.25rem;
-    background-color: #d5e8d4; 
+    background-color: #d5e8d4;
     border: 1px solid #a9dfbf;
     border-radius: 0.25rem;
     text-decoration: none;
@@ -49,46 +49,6 @@
     border-color: #6ab04c;
 }
 
-.side-nav {
-    position: fixed;
-    top: 100px;
-    left: 20px;
-    background: rgba(255, 255, 255, 0.9);
-    border: 1px solid #a9dfbf;
-    border-radius: 0.5rem;
-    padding: 1rem;
-    width: 180px;
-    z-index: 1100;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
-}
-
-.side-nav h5 {
-    font-size: 1rem;
-    margin-bottom: 0.5rem;
-    color: #3a5a2a;
-}
-
-.side-nav ul {
-    margin: 0;
-    padding: 0;
-}
-
-.side-nav ul li {
-    margin: 0.4rem 0;
-}
-
-.side-nav a {
-    color: #3a5a2a;
-    text-decoration: none;
-    font-weight: 500;
-    transition: color 0.3s ease;
-}
-
-.side-nav a:hover {
-    color: #6ab04c;
-    text-decoration: underline;
-}
-
 body {
     margin: 0;
     padding: 0;
@@ -96,13 +56,12 @@ body {
     background-image:
         linear-gradient(to right,
             rgba(51, 51, 51, 0.9) 0%,
-            rgba(102, 102, 102, 0.6) 25%,
+            rgba(102, 102, 102, 0.6) 20%,
             rgba(255, 255, 255, 0.3) 50%,
-            rgba(102, 102, 102, 0.6) 75%,
+            rgba(102, 102, 102, 0.6) 80%,
             rgba(51, 51, 51, 0.9) 100%
         );
-        background-image: url(Copilot_20250909_131452.png);
-        
+        background-image: url(Background.png);
 
     background-position: center;
     background-attachment: fixed;
@@ -111,13 +70,18 @@ body {
     background-color: #89f56e;
 }
 
-.readme-box{
-    max-height: 500px;
-    overflow-y: auto;
-    background: #e0e3e6;
-    font-family: monospace;
-    white-space: pre-wrap;
-    padding: 1rem;
+img.rounded-circle {
+    max-width: 100%;
+    height: auto;
+    border: 4px solid #a9dfbf;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 1rem;
+    padding: 2rem;
+    margin: 2rem auto;
+    width: 95%;
 }
 
 footer {
