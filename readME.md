@@ -1,6 +1,6 @@
 # **Perenia Plants, Online Shop**
 
-A personal online store of a Plant Nursery, where enthusiast can browse plants, shop, read the Nurserys blog articles and learn about plant care resources.
+A personal online store of a Plant Nursery, where enthusiasts can browse plants, shop, read the Nurserys blog articles and learn about plant care resources.
 Built with HTML, CSS and Bootstrap.
 
 ---
@@ -23,7 +23,7 @@ Built with HTML, CSS and Bootstrap.
 ---
 ## **Features**
 
--Responsive in mobile and desktop devices.
+-Responsiveness in mobile and desktop devices.
 -Navigation bar with searchbar.
 -Interactive Gallery with carousel support.
 -Shop Page designed with card structure.
