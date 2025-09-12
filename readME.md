@@ -16,25 +16,25 @@ Built with HTML, CSS and Bootstrap.
 ## **Technologies used**
 
 -Frontend: HTML, CSS
--Framework/Libraries:Bootstrap 5, formspree.io
--Tools: Git, VS Code
+-Framework/Libraries:Bootstrap 5, formspree.io, picsum.photos, Icons8
+-Tools: Git, VS Code, 
 
 ---
 ## **Features**
 
--Responsive in mobile and desktop devices
--Navigation bar with searchbar
--Interactive Gallery with carousel support
--Shop Page designed with card structure
--Personal Column style timeline blog
--Socials external link page
--Contact Form under FAQ page
--Project development content preview page with side nav
+-Responsive in mobile and desktop devices.
+-Navigation bar with searchbar.
+-Interactive Gallery with carousel support.
+-Shop Page designed with card structure.
+-Personal Column style timeline blog.
+-Socials external link page.
+-Contact Form under at end FAQ page, last accordion on list.
+-Project development content preview page with static side navigation.
 
 ---
 ## **Project Structure**
 
-my-website/
+[my-website](https://lruizrodr.github.io/Project_1/index.html)/
 │── index.html                   # Main entry point, Home
 │── AboutMe.html                 # About page
 │── Shop.html                    # Shop page
@@ -53,7 +53,14 @@ my-website/
 │   │   └── Socials.css  
 │   |   ├── Images/                 # Images & icons
 │   │   │   └── AboutMePortrait.png
+│   │   │   └── AboutMe.drawio.png
 │   │   │   └── Background.png 
+│   │   │   └── Blog.drawio.png 
+│   │   │   └── Dashboard.drawio.png
+│   │   │   └── FAQ.drawio.png
+│   │   │   └── Home.drawio.png
+│   │   │   └── Shop.drawio.png
+│   │   │   └── Socials.drawio.png
 
 ## **Installation**
 
